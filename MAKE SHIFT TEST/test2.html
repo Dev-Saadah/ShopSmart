@@ -84,6 +84,7 @@
       position: relative;
       z-index: 111;
       display: flex;
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
     }
     .flag{
       width: 78px;
@@ -126,6 +127,28 @@
     .c_5{
       left: 35rem;
     }
+
+    .overlay{
+      /* width: 45rem; */
+      height: 55px;
+      background-color: white;
+      border-radius: 30px;
+      position: relative;
+      z-index: 111;
+      display: flex;
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+
+      top: -28px;
+      margin: 0 80px 0 80px;
+      padding: 12px;
+    }
+
+    .ptn{
+      width: 110px;
+      margin-left: 10px;
+      font-size: smaller;
+      color: rgb(71, 69, 69);
+    }
   </style>
 </head>
 <body>
@@ -140,7 +163,7 @@
       </div>
 
       <div class="buttons">
-        <input id="btn" type="button" value="Get Started">
+        <input id="btn" type="button" value="Get started">
         <input id="Sbtn" type="button" value="Become a partner">
       </div>
     </div>
@@ -204,9 +227,16 @@
       </div>
     </div>
   </div>
+  <div class="overlay">
+    <div class="ptn">
+      Some of our Partners 
+    </div>
 
-  <div class="overflow" style="border: 1px solid red; height: 70vh;">
-
+    <div class="ptn__lgs">
+      <div class="lgs">
+        <i></i>
+      </div>
+    </div>
   </div>
 </body>
 </html>
