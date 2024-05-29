@@ -10,7 +10,7 @@
       margin: 0;
       box-sizing: border-box;
       font-family: sans-serif;
-      overflow: hidden;
+      overflow-x: hidden;
     }
     .main{
       background-color: #1B335B;
@@ -74,8 +74,58 @@
       position: absolute;
       top: 5px;
       left: 33rem;
-
     } 
+
+    .country__info{
+      width: 7.5rem;
+      height: 47px;
+      background-color: white;
+      border-radius: 18px;
+      position: relative;
+      z-index: 111;
+      display: flex;
+    }
+    .flag{
+      width: 78px;
+      margin: 5px;
+      margin-right: 0;
+      overflow: hidden;
+    }
+
+    .flag > img{
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+    }
+
+    .__info{
+      line-height: 14px;
+      font-size: 9px;
+      padding-top: 10px;
+    }
+
+    #str{
+      font-weight: bold;
+      font-size: 13.5px;
+    }
+
+    .c_1{
+      left: 21rem;
+      top: 210px;
+    }
+
+    .c_2{
+      left: 9.5rem;
+      top: 210px;
+    }
+
+    .c_4{
+      left: 25rem;
+    }
+
+    .c_5{
+      left: 35rem;
+    }
   </style>
 </head>
 <body>
@@ -97,7 +147,66 @@
 
     <div class="side__bar">
       <img src="../IMAGES/Map.png" alt="map">
+
+      <div class="country__info c_1">
+        <div class="flag">
+          <img src="../IMAGES/9ja.jpg" alt="Nigeria">
+        </div>
+
+        <div class="__info">
+          <span id="str">54 Stores</span>
+          $12,000,000
+        </div>
+      </div>
+
+      <div class="country__info c_2">
+        <div class="flag">
+          <img src="../IMAGES/brazil.jpg" alt="Nigeria">
+        </div>
+
+        <div class="__info">
+          <span id="str">94 Stores</span>
+          $82,000,000
+        </div>
+      </div>
+
+      <div class="country__info c_3">
+        <div class="flag">
+          <img src="../IMAGES/ghana.jpg" alt="Nigeria">
+        </div>
+
+        <div class="__info">
+          <span id="str">24 Stores</span>
+          $1,000,000
+        </div>
+      </div>
+
+      <div class="country__info c_4">
+        <div class="flag">
+          <img src="../IMAGES/saudi.jpg" alt="Nigeria">
+        </div>
+
+        <div class="__info">
+          <span id="str">17 Stores</span>
+          $102,000,000
+        </div>
+      </div>
+
+      <div class="country__info c_5">
+        <div class="flag">
+          <img src="../IMAGES/india.jpg" alt="Nigeria">
+        </div>
+
+        <div class="__info">
+          <span id="str">84 Stores</span>
+          $12,450,000
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="overflow" style="border: 1px solid red; height: 70vh;">
+
   </div>
 </body>
 </html>
