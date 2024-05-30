@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      
+    }
+    .hero{
+      overflow: hidden;
+      /* background-color: #06142E; */
+      background-color: #0c2144;
+      height: 90vh; 
+      border-radius: 0 0 25px 25px;
+      padding-top: 30px;
+      /* display: flex;
+      justify-content: center; */
+    }
+    .header{
+      background-color:rgba(204, 204, 204, 0.205);
+      width: calc(60%);
+      height: 52px;
+      /* margin-top: 25px; */
+      margin-left: 20%;
+      border-radius: 25px;
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+      animation: fallIn 1.5s ease 1 none;
+    }
+
+    @keyframes fallIn{
+      from{
+        transform: translatey(-600px);
+      }
+      to{
+        transform: translatey(0);
+      }
+    }
+    .nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: last baseline; 
+      padding: 10px;
+    }
+
+    .logo{
+      display: flex;
+      margin: 0 0 0 15px; 
+      cursor: pointer;
+    }
+
+    #icon{
+      width: 35px;
+      height: 30px;
+      cursor: pointer;
+      transition: all .1s ease;
+    }
+    .nav-links{
+      display: flex;
+      gap: 35px; 
+    }
+
+    ul li{
+      list-style-type: none;
+    }
+
+    ul li a{
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+    }
+    #btn{
+      background-color: white;
+      border: none;
+      padding: 12px;
+      margin-top: -12px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 15px;
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Second Segment */
+    .main{
+      display: flex;
+      justify-content: space-between; 
+      margin-top: 15px;
+    }
+    .main__txt{
+      width: calc(45%);
+      padding-left: 120px;
+      padding-top: 55px;
+      animation: leftIn 1.5s ease 1 none;
+    }
+
+    @keyframes leftIn {
+      from{
+        transform: translateX(-500px);
+      } to{
+        transform: translateX(0);
+      }
+    }
+
+    .__txt{
+      color: white;
+      font-size: 15px;
+      width: 28em;
+      line-height: 24px;
+      font-weight: 400;
+      margin-bottom: 22px;
+    }
+
+    .lg__txt{
+      font-size: 2em;
+      line-height: 35px;
+      font-weight: bold;
+      padding: 20px;
+      padding-left: 0;
+    }
+
+     #Sbtn{
+      background-color: rgba(204, 204, 204, 0.205);
+      border: none;
+      padding: 12.5px;
+      border-radius: 18px;
+      font-size: 15px;
+      margin-right: 10px;
+      color: white;
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .side__bar{
+      width: calc( 55%); 
+      position: relative;
+      animation: rightIn 1.5s ease-in 1 none;
+    }
+
+    @keyframes rightIn {
+      from{
+        transform: translateX(1000px);
+      } to{
+        transform: translateX(0);
+      }
+    }
+     .side__bar > img{
+      width: 60rem;
+      height: 29rem; 
+      position: absolute;
+      top: -25px;
+      left: -40px;
+    }  
+
+    .country__info{
+      width: 7.5rem;
+      height: 47px;
+      background-color: white;
+      border-radius: 18px;
+      position: relative;
+      z-index: 111;
+      display: flex;
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    }
+    .flag{
+      width: 78px;
+      margin: 5px;
+      margin-right: 0;
+      overflow: hidden;
+    }
+
+    .flag > img{
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+    }
+
+    .__info{
+      line-height: 14px;
+      font-size: 9px;
+      padding-top: 10px;
+    }
+
+    #str{
+      font-weight: bold;
+      font-size: 13.5px;
+    }
+
+    .c_1{
+      left: 21rem;
+      top: 210px;
+    }
+
+    .c_2{
+      left: 9.5rem;
+      top: 210px;
+    }
+
+    .c_4{
+      left: 25rem;
+    }
+
+    .c_5{
+      left: 35rem;
+    }
+  </style> 
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test_3 (Animations)</title>
+</head>
+<body>
+  <div class="hero">
+    <div class="header">
+      <div class="nav">
+        <div class="logo">
+          <img src="/IMAGES/Cart.png" alt="logo" id="icon">
+          <h3 style="color: white; padding-top: 5px;">ShopSmart</h3>
+        </div>
+         <ul class="nav-links">
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul> 
+        <input id="btn" type="button" value="Download app">
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="main__txt">
+        <div class="__txt">
+          <div class="lg__txt">
+            Comfortably Shop from Anywhere in the world
+          </div>
+
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, velit! Ipsum ipsam quis praesentium! Quos, illum! At,
+        </div>
+
+        <div class="buttons">
+          <input id="btn" type="button" value="Get started">
+          <input id="Sbtn" type="button" value="Become a partner">
+        </div>
+      </div>
+
+      <div class="side__bar">
+        <img src="../IMAGES/Map.png" alt="map">
+
+        <div class="country__info c_1">
+          <div class="flag">
+            <img src="../IMAGES/9ja.jpg" alt="Nigeria">
+          </div>
+
+          <div class="__info">
+            <span id="str">54 Stores</span>
+            $12,000,000
+          </div>
+        </div>
+
+        <div class="country__info c_2">
+          <div class="flag">
+            <img src="../IMAGES/brazil.jpg" alt="Nigeria">
+          </div>
+
+          <div class="__info">
+            <span id="str">94 Stores</span>
+            $82,000,000
+          </div>
+        </div>
+
+        <div class="country__info c_3">
+          <div class="flag">
+            <img src="../IMAGES/ghana.jpg" alt="Nigeria">
+          </div>
+
+          <div class="__info">
+            <span id="str">24 Stores</span>
+            $1,000,000
+          </div>
+        </div>
+
+        <div class="country__info c_4">
+          <div class="flag">
+            <img src="../IMAGES/saudi.jpg" alt="Nigeria">
+          </div>
+
+          <div class="__info">
+            <span id="str">17 Stores</span>
+            $102,000,000
+          </div>
+        </div>
+
+        <div class="country__info c_5">
+          <div class="flag">
+            <img src="../IMAGES/india.jpg" alt="Nigeria">
+          </div>
+
+          <div class="__info">
+            <span id="str">84 Stores</span>
+            $12,450,000
+          </div>
+        </div>-->
+      </div> 
+    </div>
+  </div>
+</body>
+</html>
