@@ -1,0 +1,165 @@
+/* Header Section */
+.header{
+  background-color:rgba(204, 204, 204, 0.205);
+  width: calc(60%);
+  height: 52px;
+  margin-left: 20%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  animation: fallIn 1.5s ease 1 none;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline; 
+  padding: 10px;
+}
+
+.logo{
+  display: flex;
+  margin: 0 0 0 15px; 
+  cursor: pointer;
+}
+
+#icon{
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  transition: all .1s ease;
+}
+.nav-links{
+  display: flex;
+  gap: 35px; 
+}
+
+/* End of header section */
+
+/* Main Section */
+.main{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 15px;
+}
+.main__txt{
+  width: calc(45%);
+  padding-left: 120px;
+  padding-top: 55px;
+  animation: leftIn 1.5s ease 1 none;
+}
+.__txt{
+  color: white;
+  font-size: 15px;
+  width: 28em;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.lg__txt{
+  font-size: 2em;
+  line-height: 35px;
+  font-weight: bold;
+  padding: 20px;
+  padding-left: 0;
+}
+
+ #Sbtn{
+  background-color: rgba(204, 204, 204, 0.205);
+  border: none;
+  padding: 12.5px;
+  border-radius: 18px;
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.side__bar{
+  width: calc( 55%); 
+  position: relative;
+  animation: rightIn 1.5s ease-in 1 none;
+}
+.side__bar > img{
+  width: 60rem;
+  height: 29rem; 
+  position: absolute;
+  top: -25px;
+  left: -40px;
+}  
+
+.country__info{
+  width: 7.5rem;
+  height: 47px;
+  background-color: white;
+  border-radius: 18px;
+  position: relative;
+  z-index: 111;
+  display: flex;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+.flag{
+  width: 78px;
+  margin: 5px;
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.flag > img{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.__info{
+  line-height: 14px;
+  font-size: 9px;
+  padding-top: 10px;
+}
+
+#str{
+  font-weight: bold;
+  font-size: 13.5px;
+}
+
+.c_1{
+  left: 21rem;
+  top: 210px;
+}
+
+.c_2{
+  left: 9.5rem;
+  top: 210px;
+}
+
+.c_4{
+  left: 25rem;
+}
+
+.c_5{
+  left: 35rem;
+}
+
+/* Overlay of partners */
+.overlay{
+  /* width: 45rem; */
+  height: 55px;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  z-index: 111;
+  display: flex;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  ** animation: bottomIn 1.5s ease-in 1 none; 
+
+  top: -28px;
+  margin: 0 80px 0 80px;
+  padding: 12px;
+}
+
+.ptn{
+  width: 110px;
+  margin-left: 10px;
+  font-size: smaller;
+  color: rgb(71, 69, 69);
+}

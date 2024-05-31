@@ -1,0 +1,37 @@
+/* Animations for header */
+@keyframes fallIn{
+  from{
+    transform: translatey(-90px);
+  }
+  to{
+    transform: translatey(0);
+  }
+}
+
+/* Animations for SideText */
+@keyframes leftIn {
+  from{
+    transform: translateX(-500px);
+  } to{
+    transform: translateX(0);
+  }
+}
+
+/* Animations for SideBar + Image */
+@keyframes rightIn {
+  from{
+    transform: translateX(1000px);
+  } to{
+    transform: translateX(0);
+  }
+}
+
+/* Animations for overlay */ [This is a bug]
+@keyframes bottomIn{
+  from{
+    transform: translateZ(900px);
+  }
+  to{
+    transform: translateZ(0);
+  }
+}
