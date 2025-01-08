@@ -1,6 +1,6 @@
 /* Header Section */
-.header{
-  background-color:rgba(204, 204, 204, 0.205);
+.header {
+  background-color: rgba(204, 204, 204, 0.205);
   width: calc(60%);
   height: 52px;
   margin-left: 20%;
@@ -9,45 +9,44 @@
   animation: fallIn 1.5s ease 1 none;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
-  align-items: last baseline; 
-  padding: 10px;
+  align-items: baseline;
 }
 
-.logo{
+.logo {
   display: flex;
-  margin: 0 0 0 15px; 
+  margin: 0 0 0 15px;
   cursor: pointer;
 }
 
-#icon{
+#icon {
   width: 35px;
   height: 30px;
   cursor: pointer;
-  transition: all .1s ease;
+  transition: all 0.1s ease;
 }
-.nav-links{
+.nav-links {
   display: flex;
-  gap: 35px; 
+  gap: 35px;
 }
 
 /* End of header section */
 
 /* Main Section */
-.main{
+.main {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   margin-top: 15px;
 }
-.main__txt{
+.main__txt {
   width: calc(45%);
   padding-left: 120px;
   padding-top: 55px;
   animation: leftIn 1.5s ease 1 none;
 }
-.__txt{
+.__txt {
   color: white;
   font-size: 15px;
   width: 28em;
@@ -56,7 +55,7 @@
   margin-bottom: 22px;
 }
 
-.lg__txt{
+.lg__txt {
   font-size: 2em;
   line-height: 35px;
   font-weight: bold;
@@ -64,7 +63,7 @@
   padding-left: 0;
 }
 
- #Sbtn{
+#Sbtn {
   background-color: rgba(204, 204, 204, 0.205);
   border: none;
   padding: 12.5px;
@@ -75,20 +74,20 @@
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
-.side__bar{
-  width: calc( 55%); 
+.side__bar {
+  width: calc(55%);
   position: relative;
   animation: rightIn 1.5s ease-in 1 none;
 }
-.side__bar > img{
+.side__bar > img {
   width: 60rem;
-  height: 29rem; 
+  height: 29rem;
   position: absolute;
   top: -25px;
   left: -40px;
-}  
+}
 
-.country__info{
+.country__info {
   width: 7.5rem;
   height: 47px;
   background-color: white;
@@ -98,50 +97,50 @@
   display: flex;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
-.flag{
+.flag {
   width: 78px;
   margin: 5px;
   margin-right: 0;
   overflow: hidden;
 }
 
-.flag > img{
+.flag > img {
   width: 38px;
   height: 38px;
   border-radius: 50%;
 }
 
-.__info{
+.__info {
   line-height: 14px;
   font-size: 9px;
   padding-top: 10px;
 }
 
-#str{
+#str {
   font-weight: bold;
   font-size: 13.5px;
 }
 
-.c_1{
+.c_1 {
   left: 21rem;
   top: 210px;
 }
 
-.c_2{
+.c_2 {
   left: 9.5rem;
   top: 210px;
 }
 
-.c_4{
+.c_4 {
   left: 25rem;
 }
 
-.c_5{
+.c_5 {
   left: 35rem;
 }
 
 /* Overlay of partners */
-.overlay{
+.overlay {
   /* width: 45rem; */
   height: 55px;
   background-color: white;
@@ -150,14 +149,14 @@
   z-index: 111;
   display: flex;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
-  ** animation: bottomIn 1.5s ease-in 1 none; 
+  /**animation: bottomIn 1.5s ease-in 1 none;*/
 
   top: -28px;
   margin: 0 80px 0 80px;
   padding: 12px;
 }
 
-.ptn{
+.ptn {
   width: 110px;
   margin-left: 10px;
   font-size: smaller;
